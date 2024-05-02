@@ -1,0 +1,47 @@
+Microsoft Windows [Version 10.0.22631.3447]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MyPC>cd C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git add hello_world.txt
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git commit -m "1回目のコミット"
+[main (root-commit) 4b55e8e] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git diff
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git diff C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git log
+commit 4b55e8e1f917d105c8c0ef508c5c92406779676b (HEAD -> main)
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Thu May 2 13:54:51 2024 +0900
+
+    1回目のコミット
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git add hello_world.txt
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git commit -m "2回目のコミット"
+[main 4c695cd] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>git log
+commit 4c695cdff23c706b59b453414e46ec0ba8642c21 (HEAD -> main)
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Thu May 2 13:57:29 2024 +0900
+
+    2回目のコミット
+
+commit 4b55e8e1f917d105c8c0ef508c5c92406779676b
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Thu May 2 13:54:51 2024 +0900
+
+    1回目のコミット
+
+C:\課題提出\ファイルの変更履歴を確認しよう\git_challenge>
