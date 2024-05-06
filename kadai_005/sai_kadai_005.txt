@@ -1,0 +1,55 @@
+Microsoft Windows [Version 10.0.22631.3447]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MyPC>cd C:\課題提出\github_basic_kadai\git_challenge
+
+C:\課題提出\github_basic_kadai\git_challenge>git add .
+
+C:\課題提出\github_basic_kadai\git_challenge>git commit -m "再提出：ファイルの変更履歴を確認しよう2"
+[main 22c0c67] 再提出：ファイルの変更履歴を確認しよう2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\課題提出\github_basic_kadai\git_challenge>git log
+commit 22c0c67d5bfaa31a2add8757e1ab866e2d118ed1 (HEAD -> main)
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Sun May 5 17:05:57 2024 +0900
+
+    再提出：ファイルの変更履歴を確認しよう2
+
+commit c00c6c9e5f40c3f35ae97944590d0e34eafb55e5
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Sun May 5 17:03:38 2024 +0900
+
+    再提出：ファイルの変更履歴を確認しよう
+
+commit 5278cf2cfc17ea0c84568cea8af9a24833c60961 (origin/main, origin/HEAD)
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Sun May 5 15:54:33 2024 +0900
+
+    フォルダ構成変更
+
+commit 4555ea50b06a97f56d35f33deaa9ee46e3c13ab1
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Sun May 5 15:44:45 2024 +0900
+
+    フォルダ構成変更
+
+commit 399b3655c6ce50f68ee7645e758ee3ba13f26f66
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Sun May 5 15:38:56 2024 +0900
+
+    課題：私の趣味
+
+commit 4487ceea7b21b7599d1942cb22abc809e00dcd50
+Author: yuutakeuchi <potetodayo67@gmail.com>
+Date:   Thu May 2 21:25:08 2024 +0900
+
+    コミット
+
+commit 1d3c193822b31cad7de3ece5c1d4d15617e8f2d9
+Author: yuutakeuchi <166902879+yuutakeuchi@users.noreply.github.com>
+Date:   Sun Apr 14 10:26:35 2024 +0900
+
+    Add files via upload
+
+C:\課題提出\github_basic_kadai\git_challenge>
