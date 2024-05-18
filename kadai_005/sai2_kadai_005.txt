@@ -1,0 +1,55 @@
+Microsoft Windows [Version 10.0.22631.3447]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MyPC>cd C:\課題提出\github_basic_kadai
+
+C:\課題提出\github_basic_kadai>git add .
+
+C:\課題提出\github_basic_kadai>git commit -m "hellow_world.txtを追加"
+[main 346e2a7] hellow_world.txtを追加
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+
+C:\課題提出\github_basic_kadai>git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 479 bytes | 479.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/yuutakeuchi/github_basic_kadai.git
+   fcc853f..346e2a7  main -> main
+
+C:\課題提出\github_basic_kadai>git add .
+
+C:\課題提出\github_basic_kadai>git commit -m "日本語訳を追加"
+[main 7fec0de] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\課題提出\github_basic_kadai>git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 460 bytes | 460.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/yuutakeuchi/github_basic_kadai.git
+   346e2a7..7fec0de  main -> main
+
+C:\課題提出\github_basic_kadai>git log -oneline
+fatal: unrecognized argument: -oneline
+
+C:\課題提出\github_basic_kadai>git log --oneline
+7fec0de (HEAD -> main, origin/main, origin/HEAD) 日本語訳を追加
+346e2a7 hellow_world.txtを追加
+fcc853f 2回目のコミット
+bc54899 1回目のコミット
+2155014 再提出
+22c0c67 再提出：ファイルの変更履歴を確認しよう2
+c00c6c9 再提出：ファイルの変更履歴を確認しよう
+5278cf2 フォルダ構成変更
+4555ea5 フォルダ構成変更
+399b365 課題：私の趣味
+4487cee コミット
+1d3c193 Add files via upload
+
+C:\課題提出\github_basic_kadai>
